@@ -7,6 +7,7 @@
 
 .plansScreen__plan:hover {
     opacity: 1;
+    transition: all 100ms;
 }
 
 .plansScreen__plan>button {
@@ -21,4 +22,5 @@
 
 .plansScreen__plan--disabled>button {
     background-color: gray !important;
+    cursor: not-allowed;
 }
