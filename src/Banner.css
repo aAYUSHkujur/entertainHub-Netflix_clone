@@ -24,6 +24,7 @@
     font-size: 0.8rem;
     max-width: 360px;
     height: 80px;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
 }
 
 .banner--fadeBottom {
@@ -49,8 +50,8 @@
     padding-bottom: 0.5rem;
 }
 
-.banner__button:hover{
+.banner__button:hover {
     color: #000;
     background-color: #e6e6e6;
-    transition: all 0.2s;
+    transition: all 200ms;
 }
